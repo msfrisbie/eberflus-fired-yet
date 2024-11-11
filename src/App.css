@@ -36,3 +36,11 @@
   width: 100%;
   padding: 2rem;
 }
+
+.footer,
+.footer:visited,
+.footer:active {
+  color: white;
+  font-size: 0.8rem;
+  padding-top: 12rem;
+}

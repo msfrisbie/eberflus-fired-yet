@@ -86,6 +86,7 @@ function App() {
           {timeElapsed.seconds}.{timeElapsed.milliseconds} seconds since the
           Bears won a road game on Sunday.
         </div>
+        <a className="footer" href="https://mattfriz.com">mattfriz.com</a>
       </header>
     </div>
   );
