@@ -44,3 +44,7 @@
   font-size: 0.8rem;
   padding-top: 12rem;
 }
+
+.fixed-time {
+  font-family: monospace;
+}

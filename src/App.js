@@ -81,11 +81,16 @@ function App() {
         <div>Reviewing and refining strategies</div>
         <div className="timer">
           It's been&nbsp;
-          {timeElapsed.years} years, {timeElapsed.months} months,{" "}
-          {timeElapsed.days} days,&nbsp;
-          {timeElapsed.hours} hours, {timeElapsed.minutes} minutes,{" "}
-          {timeElapsed.seconds}.{timeElapsed.milliseconds} seconds since the
-          Bears won a road game on Sunday.
+          <span className="fixed-time">{timeElapsed.years}</span> years,{" "}
+          <span className="fixed-time">{timeElapsed.months}</span> months,{" "}
+          <span className="fixed-time">{timeElapsed.days}</span> days,&nbsp;
+          <span className="fixed-time">{timeElapsed.hours}</span> hours,{" "}
+          <span className="fixed-time">{timeElapsed.minutes}</span> minutes,{" "}
+          <span className="fixed-time">
+            {timeElapsed.seconds.toString().padStart(2, "0")}.
+            {timeElapsed.milliseconds.toString().padStart(3, "0")}
+          </span>{" "}
+          seconds since the Bears won a road game on Sunday.
         </div>
         <a className="footer" href="https://mattfriz.com">
           mattfriz.com
