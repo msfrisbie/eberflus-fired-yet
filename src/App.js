@@ -68,6 +68,7 @@ function App() {
           <div>Matt Eberflus has not been fired yet.</div>
         </h1>
         <h2>Things he's busy with:</h2>
+        <div>HITS principle</div>
         <div>Focusing on the game plan</div>
         <div>Executing and preparing</div>
         <div>Working on fundamentals and process</div>
