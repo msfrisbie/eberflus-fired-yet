@@ -69,6 +69,8 @@ function App() {
         </h1>
         <h2>Things he's busy with:</h2>
         <div>HITS principle</div>
+        <div>Looking inward</div>
+        <div>Developing complimentary football strategies</div>
         <div>Focusing on the game plan</div>
         <div>Executing and preparing</div>
         <div>Working on fundamentals and process</div>
