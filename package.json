@@ -8,6 +8,7 @@
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "react-scripts": "5.0.1",
+    "react-simply-carousel": "^9.1.6",
     "web-vitals": "^3.0.4"
   },
   "scripts": {

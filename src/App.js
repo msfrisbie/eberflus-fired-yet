@@ -70,13 +70,17 @@ function App() {
         <h2>Things he's busy with:</h2>
         <div>HITS principle</div>
         <div>Looking inward</div>
-        <div>Developing complimentary football strategies</div>
+        <div>Developing complementary football strategies</div>
+        <div>Searching for the "why's"</div>
         <div>Focusing on the game plan</div>
+        <div>Going back to look at the tape</div>
+        <div>Seeing how it goes</div>
         <div>Executing and preparing</div>
         <div>Working on fundamentals and process</div>
         <div>Evaluating everything and all phases</div>
         <div>Staying the course</div>
         <div>Taking it one day at a time</div>
+        <div>Visiting the barber 3x/week</div>
         <div>Keeping the team on track</div>
         <div>Reinforcing discipline and focus</div>
         <div>Assessing player performance</div>
