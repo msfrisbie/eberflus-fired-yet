@@ -32,7 +32,7 @@
 }
 
 .huge {
-  font-size: 18rem;
+  font-size: 16rem;
 }
 
 .timer {
@@ -41,7 +41,13 @@
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 2rem;
+  padding: 1rem; /* Reduced padding to avoid overflow */
+  box-sizing: border-box; /* Includes padding in the element's width */
+  text-align: center;
+  display: flex;
+  justify-content: center; /* Center the content */
+  line-height: 1.8rem;
+  font-size: 1.2rem;
 }
 
 .footer,
@@ -69,4 +75,17 @@
   transition: background-color 0.3s ease;
   margin: 3rem 0;
   font-size: 3rem;
+}
+
+.select {
+  border: 2px solid #214284;
+  background: none;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  /* text-decoration: underline; */
+  cursor: pointer;
+  border-radius: 2rem;
+  text-align: center;
+  padding: 0.2rem;
 }
