@@ -59,6 +59,23 @@ function App() {
     return () => clearInterval(intervalId);
   }, []);
 
+  const handleShare = async () => {
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title: "Has Matt Eberflus Been Fired Yet?",
+          text: "Tracking page for Matt Eberflus firing. Don't hold your breath. #savecaleb",
+          url: window.location.href,
+        });
+        console.log("Website shared successfully");
+      } catch (error) {
+        console.error("Error sharing the website:", error);
+      }
+    } else {
+      alert("Your browser doesn't support the Web Share API.");
+    }
+  };
+
   return (
     <div className="App">
       <header className="App-header">
@@ -98,6 +115,13 @@ function App() {
           </span>{" "}
           seconds since the Bears won a road game on Sunday.
         </div>
+
+        <div>
+          <button className="share" onClick={handleShare}>
+            #savecaleb
+          </button>
+        </div>
+
         <a className="footer" href="https://mattfriz.com">
           mattfriz.com
         </a>
