@@ -9,6 +9,14 @@ function App() {
       dateTime: "2021-12-26T00:00:00Z",
     },
     {
+      eventDescriptor: "finished with a winning record.",
+      dateTime: "2018-12-16T00:00:00Z",
+    },
+    {
+      eventDescriptor: "finished above .500",
+      dateTime: "2018-12-16T00:00:00Z",
+    },
+    {
       eventDescriptor: "beat the Packers",
       dateTime: "2020-12-29T00:00:00Z",
     },
