@@ -18,7 +18,7 @@ function App() {
     },
     {
       eventDescriptor: "beat the Packers",
-      dateTime: "2020-12-29T00:00:00Z",
+      dateTime: "2018-12-16T00:00:00Z",
     },
     {
       eventDescriptor: "made the playoffs",
@@ -45,7 +45,6 @@ function App() {
   const [selectedEvent, setSelectedEvent] = useState(chicagoBearsEvents[0]);
   const [timeElapsed, setTimeElapsed] = useState({
     years: 0,
-    months: 0,
     days: 0,
     hours: 0,
     minutes: 0,
@@ -63,9 +62,6 @@ function App() {
       const years = Math.floor(milliseconds / (365.25 * 24 * 60 * 60 * 1000));
       milliseconds %= 365.25 * 24 * 60 * 60 * 1000;
 
-      const months = Math.floor(milliseconds / (30 * 24 * 60 * 60 * 1000));
-      milliseconds %= 30 * 24 * 60 * 60 * 1000;
-
       const days = Math.floor(milliseconds / (24 * 60 * 60 * 1000));
       milliseconds %= 24 * 60 * 60 * 1000;
 
@@ -80,7 +76,6 @@ function App() {
 
       setTimeElapsed({
         years,
-        months,
         days,
         hours,
         minutes,
@@ -116,7 +111,6 @@ function App() {
         <span>
           It's been&nbsp;
           <span className="fixed-time">{timeElapsed.years}</span> years,{" "}
-          <span className="fixed-time">{timeElapsed.months}</span> months,{" "}
           <span className="fixed-time">{timeElapsed.days}</span> days,{" "}
           <span className="fixed-time">{timeElapsed.hours}</span> hours,{" "}
           <span className="fixed-time">{timeElapsed.minutes}</span> minutes,{" "}
