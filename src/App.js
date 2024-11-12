@@ -5,11 +5,11 @@ import flus from "./flus.png";
 function App() {
   const chicagoBearsEvents = [
     {
-      eventDescriptor: "won a road game on Sunday.",
+      eventDescriptor: "won a road game on Sunday",
       dateTime: "2021-12-26T00:00:00Z",
     },
     {
-      eventDescriptor: "finished with a winning record.",
+      eventDescriptor: "finished with a winning record",
       dateTime: "2018-12-16T00:00:00Z",
     },
     {
