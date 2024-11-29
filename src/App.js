@@ -142,10 +142,10 @@ function App() {
         <header className="App-header">
           <img src={flus} className="App-logo" alt="logo" />
           <h1>
-            <div className="huge">NO</div>
-            <div>Matt Eberflus has not been fired yet.</div>
+            <div className="huge">YES</div>
+            <div>Praise the Gods, Matt Eberflus has been fired.</div>
           </h1>
-          <h2>Things he's busy with instead of winning football games:</h2>
+          <h2>Things he'll be working on in the unemployment line:</h2>
           <div>Refining the HITS principle</div>
           <div>Looking inward</div>
           <div>Developing complementary football strategies</div>
