@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
+import bears from "./bears.png";
 import flus from "./flus.png";
 
 function App() {
@@ -174,6 +175,68 @@ function App() {
             mattfriz.com
           </a>
         </header>
+      </div>
+      <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake">
+          <div class="inner">
+            <img src={bears} className="snowflake-logo" alt="logo" />
+          </div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">
+            <img src={bears} className="snowflake-logo" alt="logo" />
+          </div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">
+            <img src={bears} className="snowflake-logo" alt="logo" />
+          </div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">
+            <img src={bears} className="snowflake-logo" alt="logo" />
+          </div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">
+            <img src={bears} className="snowflake-logo" alt="logo" />
+          </div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">
+            <img src={bears} className="snowflake-logo" alt="logo" />
+          </div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">
+            <img src={bears} className="snowflake-logo" alt="logo" />
+          </div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">
+            <img src={bears} className="snowflake-logo" alt="logo" />
+          </div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">
+            <img src={bears} className="snowflake-logo" alt="logo" />
+          </div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">
+            <img src={bears} className="snowflake-logo" alt="logo" />
+          </div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">
+            <img src={bears} className="snowflake-logo" alt="logo" />
+          </div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">
+            <img src={bears} className="snowflake-logo" alt="logo" />
+          </div>
+        </div>
       </div>
     </>
   );
